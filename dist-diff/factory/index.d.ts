@@ -1,4 +1,2 @@
-export { createHono, createRoute } from './factory.js';
-import 'hono/types';
-import 'hono/factory';
-import 'hono';
+import { createHono, createRoute } from "./factory.js";
+export { createHono, createRoute };

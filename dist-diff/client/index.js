@@ -1,4 +1,3 @@
 import { createClient } from "./client.js";
-export {
-  createClient
-};
+
+export { createClient };

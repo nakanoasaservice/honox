@@ -1,2 +1,2 @@
-export { ClientOptions, createClient } from './client.js';
-import '../types.js';
+import { ClientOptions, createClient } from "./client.js";
+export { type ClientOptions, createClient };
