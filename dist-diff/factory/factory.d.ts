@@ -1,8 +1,9 @@
-import * as hono_types from 'hono/types';
-import * as hono_factory from 'hono/factory';
-import { Env, Hono } from 'hono';
+import { Env, Hono } from "hono";
+import * as hono_factory0 from "hono/factory";
+import * as hono_types0 from "hono/types";
 
-declare const createRoute: hono_factory.CreateHandlersInterface<Env, string>;
-declare const createHono: () => Hono<Env, hono_types.BlankSchema, "/">;
-
+//#region src/factory/factory.d.ts
+declare const createRoute: hono_factory0.CreateHandlersInterface<Env, string>;
+declare const createHono: () => Hono<Env, hono_types0.BlankSchema, "/">;
+//#endregion
 export { createHono, createRoute };

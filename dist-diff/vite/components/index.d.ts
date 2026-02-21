@@ -1,2 +1,2 @@
-export { HonoXIsland } from './honox-island.js';
-import 'hono/jsx/jsx-dev-runtime';
+import { HonoXIsland } from "./honox-island.js";
+export { HonoXIsland };

@@ -1,5 +1,3 @@
-import { createRoute, createHono } from "./factory.js";
-export {
-  createHono,
-  createRoute
-};
+import { createHono, createRoute } from "./factory.js";
+
+export { createHono, createRoute };

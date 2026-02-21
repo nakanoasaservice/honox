@@ -1,10 +1,11 @@
-import { Plugin } from 'vite';
+import { Plugin } from "vite";
 
+//#region src/vite/client.d.ts
 type ClientOptions = {
-    jsxImportSource?: string;
-    assetsDir?: string;
-    input?: string[];
+  jsxImportSource?: string;
+  assetsDir?: string;
+  input?: string[];
 };
 declare function client(options?: ClientOptions): Plugin;
-
-export { type ClientOptions, client as default };
+//#endregion
+export { ClientOptions, client as default };

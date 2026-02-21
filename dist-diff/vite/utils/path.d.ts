@@ -1,3 +1,4 @@
+//#region src/vite/utils/path.d.ts
 /**
  * Check if the name is a valid component name
  *
@@ -18,5 +19,5 @@ declare function isComponentName(name: string): boolean;
  * @returns The result object if id is matched or null
  */
 declare function matchIslandComponentId(id: string, islandDir?: string): RegExpMatchArray | null;
-
+//#endregion
 export { isComponentName, matchIslandComponentId };
